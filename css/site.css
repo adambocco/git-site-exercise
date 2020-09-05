@@ -31,6 +31,7 @@ header {
     margin:auto;
     max-width: 100%;
     max-height: 100%;
+    height: auto;
 
 }
 #covid-img {
@@ -52,14 +53,15 @@ li {
     clear: both;
 }
 .button {
-    background-color:#ddd;
+    background:radial-gradient(rgb(183, 218, 250), rgb(62, 135, 184));
     border: 1px solid black;
     border-radius:5px;
     text-decoration:none;
-    padding:0.5em;
+    font-size: 1em;
+    padding:0.5em 2em;
     margin:1em;
     color:black;
-    display: inline-block;
+    text-align: center;
 }
 .button:hover {
     background-color:#ccc;
@@ -79,7 +81,28 @@ li {
     margin: 0;
     float:left;
 }
-.mtb {
-    margin-top: 2em;
-    margin-bottom: 1em;
+.tips {
+    overflow:auto;
+    margin-bottom:50px;
+}
+fieldset {
+    text-align: center;
+}
+legend {
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+a {
+    text-decoration: none;
+    color: rgb(13, 42, 95);
+    font-weight: bold;
+    padding: 0.3em;
+}
+a:hover {
+    color: rgb(2,2,2);
+    border: 1px dotted black;
+    padding: 0.3em;
+}
+.resources{
+    list-style-type: none;
 }

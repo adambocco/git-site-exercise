@@ -62,10 +62,14 @@ li {
     margin:1em;
     color:black;
     text-align: center;
+
 }
 .button:hover {
-    background-color:#ccc;
+    background:radial-gradient(rgb(216, 233, 250), rgb(118, 171, 209));
     color: rgb(54, 93, 128);
+    transition-duration:1s;
+    cursor: pointer;
+
 }
 .col1 {
     display: block;
@@ -84,6 +88,8 @@ li {
 .tips {
     overflow:auto;
     margin-bottom:50px;
+    background-color: rgba(100, 128, 165, 0.1);
+    padding:1em;
 }
 fieldset {
     text-align: center;
@@ -105,4 +111,7 @@ a:hover {
 }
 .resources{
     list-style-type: none;
+}
+.page-title {
+    text-align:center;
 }

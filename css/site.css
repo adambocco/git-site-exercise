@@ -22,7 +22,11 @@ header {
     border: 2px solid black;
     border-radius: 20px;
     padding: 0em 2em 2em 2em;
+<<<<<<< HEAD
     margin:1em auto;
+=======
+    margin:auto;
+>>>>>>> 43982e29bcfb0079de48db078430ad08dd146132
     text-align: center;
     font-size: 3vw;
     background: radial-gradient(rgb(186, 209, 231), rgb(74, 127, 161));
